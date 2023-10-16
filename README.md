@@ -1,6 +1,6 @@
 # Apollo
 
-- apollo-codegen introspect-schema http://192.168.8.110:3000/graphql --output schema.json
+- apollo-codegen introspect-schema APIURL --output schema.json
 - https://thenounproject.com/search/?q=jobs&i=2043816
 - http://inloop.github.io/svg2android/
 - https://github.com/square/leakcanary
