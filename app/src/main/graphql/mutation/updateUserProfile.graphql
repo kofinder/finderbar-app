@@ -1,0 +1,15 @@
+mutation updateUserProfileMutation($_id: ID!, $profile: UserProfileInput!) {
+    updateUserProfile(_id: $_id, profile: $profile) {
+        modifyStatus {
+           status
+           modifyFlag
+           statusCode
+           message
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

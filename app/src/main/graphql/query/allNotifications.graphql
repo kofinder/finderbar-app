@@ -1,0 +1,23 @@
+query AllNotificationsQuery($criteria: Criteria!){
+  allNotifications(criteria: $criteria) {
+    notifications {
+      _id
+      detailId
+      taskType
+      taskName
+      title
+      body
+      userName
+      userAvatar
+      createdAt
+      updatedAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

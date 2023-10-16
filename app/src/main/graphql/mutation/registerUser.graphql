@@ -1,0 +1,18 @@
+mutation userRegisterMutation($fullName: String!, $password: String!, $authCode: String!) {
+  registerUser(fullName: $fullName, password: $password, authCode: $authCode) {
+    authToken {
+      token
+      userId
+      username
+      avatar
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}
+
+
+

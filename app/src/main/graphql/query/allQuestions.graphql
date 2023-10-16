@@ -1,0 +1,25 @@
+query AllQuestionsQuery($criteria: Criteria!){
+  allQuestions(criteria: $criteria) {
+    questions {
+      _id
+      title
+      body
+      tags
+      answerCount
+      upVoteCount
+      downVoteCount
+      commentCount
+      viewCount
+      userAvatar
+      userName
+      createdAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

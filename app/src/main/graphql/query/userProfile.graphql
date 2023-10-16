@@ -1,0 +1,62 @@
+query UserProfileQuery($userId: ID!) {
+    userProfile(userId: $userId) {
+        profile {
+           _id
+            userName
+            avatar
+            gender
+            birthday
+            relationship
+            language
+            nationality
+            facebook
+            workPhone
+            handPhone
+            address
+            profileViewCount
+            answerCount
+            questionCount
+            repetition
+            badgeCount {
+                bronze
+                silver
+                gold
+            }
+            experience {
+                expId
+                position
+                company
+                fromDate
+                toDate
+                expDescription
+            }
+            education {
+                eduId
+                school
+                city
+                fromDate
+                toDate
+                eduDescription
+            }
+            skill {
+                skillId
+                language
+                framework
+                database
+            }
+            hobbie {
+                hobbId
+                travel
+                movie
+                music
+                game
+                book
+            }
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

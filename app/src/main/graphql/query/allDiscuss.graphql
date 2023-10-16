@@ -1,0 +1,32 @@
+query AllDiscussQuery($criteria: Criteria!){
+    allDiscuss(criteria: $criteria) {
+        discuss {
+            _id
+            userId
+            title
+            body
+            tags
+            userAvatar
+            userName
+            answerCount
+            upVoteCount
+            downVoteCount
+            commentCount
+            viewCount
+            upVoteHelper
+            downVoteHelper
+            favoriteHelper
+            accepted
+            discussType
+            createdAt
+            updatedAt
+        }
+        hasNext
+        totalCount
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

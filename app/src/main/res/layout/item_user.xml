@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="User" type="com.finderbar.jovian.models.User"/>
+    </data>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:background="@color/pf_white">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#B5C0E2"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="13sp"
+            android:text="@{User.userName}"
+            android:paddingLeft="16dp"
+            app:layout_constraintStart_toEndOf="@id/user_image"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Follow"
+            android:id="@+id/btn_follow"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            style="@style/Widget.MaterialComponents.Button"
+            app:backgroundTint="#3f974b"
+            app:backgroundTintMode="multiply"
+            app:layout_constraintStart_toEndOf="@id/user_image"
+            app:layout_constraintTop_toBottomOf="@id/user_name"/>
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/btn_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:iiv_color="@color/colorPrimaryDark"
+            app:iiv_icon="faw_facebook_messenger"
+            app:iiv_size="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

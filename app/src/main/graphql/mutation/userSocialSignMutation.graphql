@@ -1,0 +1,15 @@
+mutation userSocialSignInMutation($uuid: String!, $fullName: String) {
+    socialSignUser(uuid: $uuid, fullName: $fullName) {
+        authToken {
+            token
+            userId
+            username
+            avatar
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

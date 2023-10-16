@@ -1,0 +1,10 @@
+subscription commentSubscription($_id: ID!) {
+  subscribeComment(_id: $_id) {
+      _id
+      userId
+      userAvatar
+      userName
+      body
+      createdAt
+  }
+}

@@ -1,0 +1,24 @@
+query AllAnswerByQuestionIdQuery($criteria: Criteria!){
+  allAnswerByQuestionId(criteria: $criteria) {
+    answers {
+      _id
+      userId
+      questionId
+      body
+      userAvatar
+      userName
+      commentCount
+      upVoteCount
+      downVoteCount
+      createdAt
+      updatedAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

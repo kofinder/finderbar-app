@@ -1,0 +1,24 @@
+query QuestionDetailQuery($_id: ID!) {
+  questionById(_id: $_id) {
+    question {
+      _id
+      title
+      tags
+      body
+      answerCount
+      upVoteCount
+      downVoteCount
+      commentCount
+      viewCount
+      userId
+      userName
+      userAvatar
+      createdAt
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

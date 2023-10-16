@@ -1,0 +1,15 @@
+query AllTagsQuery($criteria: Criteria!){
+  allTags(criteria: $criteria) {
+    tags {
+      tagName
+      tagCount
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

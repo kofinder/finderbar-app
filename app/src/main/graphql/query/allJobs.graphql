@@ -1,0 +1,27 @@
+query AllJobsQuery($criteria: Criteria!) {
+    allJobs(criteria: $criteria) {
+        jobs {
+            _id
+            title
+            description
+            place
+            salary
+            currency
+            industryType
+            category
+            companyName
+            companyLogo
+            likeCount
+            commentCount
+            viewCount
+            createdAt
+        }
+        hasNext
+        totalCount
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

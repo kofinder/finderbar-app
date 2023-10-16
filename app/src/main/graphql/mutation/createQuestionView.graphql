@@ -1,0 +1,16 @@
+mutation saveQuestionViewMutation($_id: ID!, $userId: ID!) {
+  createQuestionView(_id: $_id, userId: $userId) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

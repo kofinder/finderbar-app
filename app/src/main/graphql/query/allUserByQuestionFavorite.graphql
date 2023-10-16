@@ -1,0 +1,19 @@
+query AllUserByQuestionFavoriteQuery($criteria: Criteria!){
+  allUserByQuestionFavorite(criteria: $criteria) {
+    users {
+      _id
+      userName
+      avatar
+      gender
+      online
+      createdAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

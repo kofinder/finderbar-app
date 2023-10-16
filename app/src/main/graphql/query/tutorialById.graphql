@@ -1,0 +1,17 @@
+query TutorialDetailQuery($_id: ID!) {
+    tutorialById(_id: $_id) {
+        tutorial {
+            _id
+            titleText
+            commentCount
+            viewCount
+            createdAt
+            updatedAt
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

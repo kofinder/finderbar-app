@@ -1,0 +1,26 @@
+query AllMoviesQuery($criteria: Criteria!){
+  allMovies(criteria: $criteria) {
+    movies {
+      _id
+      body
+      url
+      coverUrl
+      likeCount
+      commentCount
+      viewCount
+      userId
+      userAvatar
+      userName
+      createdAt
+      updatedAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+mutation saveMovieMutation($movie: MovieInput!) {
+  createMovie(movie: $movie) {
+    command {
+       id
+       status
+       modifyFlag
+       statusCode
+       message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+
+}

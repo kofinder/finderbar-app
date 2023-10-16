@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">FinderBar</string>
+    <string name="FACEBOOK_APP_ID">1130521563719493</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">bf12329512b677ef21e77ca8c28abcdd</string>
+    <string name="facebook_app_id">1130521563719493</string>
+    <string name="fb_login_protocol_scheme">fb1130521563719493</string>
+    <string name="web_client_id">97987868568-mk2cfv7ptc5nneo8m115hre120o448mv.apps.googleusercontent.com</string>
+
+    <string name="log_out_button">Logout</string>
+    <string name="error_label">Error</string>
+    <string name="loading_placeholder">Loading&#8230;</string>
+    <string name="na">NA</string>
+
+    <string name="action_bar_title_hello">Hello</string>
+    <string name="permissions_get_accounts_message">
+        Grant permission to read your email address from your device to pre-fill.
+    </string>
+    <string name="permissions_get_accounts_title">Read Email Address</string>
+    <string name="permissions_read_phone_state_message">
+        Grant permission to read your phone number from your device to pre-fill.
+    </string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message">
+        Grant permission to read your SMS code from your device to pre-fill.
+    </string>
+
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+    <string name="log_in_email_button">Log In via Email</string>
+    <string name="log_in_phone_button">Log In via Phone</string>
+
+    <string name="user_id_label">Account ID</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="email_label">Email</string>
+    <string name="error_toast">Error when getting Account</string>
+    <string name="email_warn">Please login via Email</string>
+    <string name="phone_number_warn">Please login via Phone</string>
+    <string name="lb_basic_ui">Basic UI</string>
+    <string name="lb_advanced_ui">Advanced UI</string>
+    <string name="settings_deleted">Settings with key have been deleted. Key = </string>
+    <string name="user_nick_name">User NickName from saved Settings</string>
+
+
+    <string name="phonefield_edittext">phone_edit_text</string>
+    <string name="phonefield_flag_spinner">flag_spinner</string>
+    <string name="phonefield_til_phone">til_phone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- NAVIGATION -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tutorial">Tutorials</string>
+    <string name="nav_blogger">Blogger</string>
+    <string name="nav_job">Job</string>
+    <string name="nav_chat">Chatting</string>
+    <string name="nav_privacy">Privacy Policy</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_credit">Credit Libraries</string>
+    <string name="nav_settings">Settings</string>
+
+
+    <!-- TOOLBAR -->
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="credit_source">Credit Libraries</string>
+    <string name="ap_settings">Settings</string>
+    <string name="ap_version">V2.0.1</string>
+
+    <!--EDITOR-->
+    <string name="title_activity_render">RenderActivity</string>
+    <string name="markdown_text_editor_app_name">Rich Text Editor</string>
+    <string name="markdown_text_editor_enter_text">Enter Text</string>
+    <string name="markdown_text_editor_preview">Preview</string>
+    <string name="markdown_text_editor_done">Done</string>
+
+    <!--SEARCHABLE-->
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+
+
+    <!--VALIDATION-->
+    <string name="error_msg">Sorry! Couldn\'t fetch data.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="err_password">you password is not valid!</string>
+    <string name="err_confirm_password">you confirm password is not valid!</string>
+    <string name="err_math_password">you confirm does not match!</string>
+    <string name="err_tel">you phone is not valid!</string>
+    <string name="err_name">Human name please</string>
+
+    <!-- Auth Profile Tab Menu -->
+    <string name="menu_question">Question</string>
+    <string name="menu_answer">Answer</string>
+    <string name="menu_bookmark_tutorial">Tutorial</string>
+    <string name="menu_dashboard">Dashboard</string>
+
+    <string name="pie_jan">January</string>
+    <string name="pie_feb">February</string>
+    <string name="pie_mrh">March</string>
+    <string name="pie_apl">April</string>
+    <string name="pie_may">May</string>
+    <string name="pie_june">June</string>
+    <string name="pie_jul">July</string>
+
+
+    <!--PROFILE-->
+    <string name="usr_full_name">Name:</string>
+    <string name="usr_gender">Gender:</string>
+    <string name="usr_male">Male</string>
+    <string name="usr_female">FeMale</string>
+    <string name="usr_rls">RelationShip:</string>
+    <string name="usr_single">Single</string>
+    <string name="usr_marry">Married</string>
+
+    <string name="usr_birthday">Birthday:</string>
+    <string name="usr_language">Language:</string>
+    <string name="usr_nal">Nationality:</string>
+    <string name="usr_fblink">Facebook:</string>
+    <string name="usr_workphone">WorkPhone:</string>
+    <string name="usr_handphone">HandPhone:</string>
+    <string name="usr_addr">Address:</string>
+
+
+    <!--BUCKET UPLOAD-->
+    <string name="bucketName">finderbar</string>
+    <string name="notifications_channel_name">Global channel</string>
+    <string name="notification_add_to_cart_button">Like</string>
+    <string name="notifications_channel_description">Notifications sent from the app admin</string>
+    <string name="msg_token_fmt">fcm token are</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rationale_camera">This app needs access to your camera so you can take pictures.</string>
+    <string name="rationale_location_contacts">This app needs access to your location and contacts to know where and who you are.</string>
+    <string name="rationale_sms">This app needs access to your sms to read all your great messages.</string>
+    <string name="returned_from_app_settings_to_activity">
+        Returned from app settings to MainActivity with the following permissions:
+        \n\nCamera: yes/no
+        \nLocation &amp; Contacts: yes/no
+        \nSMS: yes/no
+    </string>
+    <string name="camera">Camera</string>
+    <string name="location_and_contacts">Location and Contacts</string>
+    <string name="sms">SMS</string>
+
+    <string name="rationale_photo_picker">We require this permission to select photo from gallery and camera.</string>
+    <string name="rationale_doc_picker">We need this permission to read documents from device.</string>
+
+    <!--Tutorials-->
+    <string name="tut_language">Languages</string>
+    <string name="tut_framework">FrameWork</string>
+    <string name="tut_library">Libraries</string>
+    <string name="tut_database">Databases</string>
+    <string name="tut_tool">Tools</string>
+    <string name="tut_other">Others</string>
+
+    <!--Movies-->
+    <string name="transition_name_single_player">Single Player Transition</string>
+    <string name="title_activity_memory_leak">Toro Demo Leak</string>
+
+
+    <string name="instant_validation">(instant validation)</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="status_code_sent">Code Sent</string>
+
+    <!--    DATABINDIG-->
+    <string name="generic_name">%1$s %2$s</string>
+    <string name="transition_photo">photo_transition</string>
+
+    <string name="comment_empty_text">No comments here yet</string>
+    <string name="vote_empty_text">Not votes here yet</string>
+    <string name="like_empty_text">Not likes here yet</string>
+
+</resources>

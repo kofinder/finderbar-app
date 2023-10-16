@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="ImageItem" type="com.finderbar.jovian.models.ImageItem"/>
+    </data>
+    <RelativeLayout
+        android:id="@+id/rlImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#99000000">
+        <ImageView
+            android:id="@+id/mImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            app:bigImage="@{ImageItem.urls}"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/mImageView"
+            android:layout_alignTop="@+id/mImageView"
+            android:layout_alignEnd="@+id/mImageView"
+            android:layout_alignBottom="@+id/mImageView"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="+6"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+</layout>

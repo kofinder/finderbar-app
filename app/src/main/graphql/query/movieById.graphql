@@ -1,0 +1,22 @@
+query MovieDetailQuery($_id: ID!) {
+  movieById(_id: $_id) {
+   movie {
+     _id
+     body
+     url
+     coverUrl
+     likeCount
+     commentCount
+     viewCount
+     userAvatar
+     userName
+     createdAt
+     updatedAt
+   }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

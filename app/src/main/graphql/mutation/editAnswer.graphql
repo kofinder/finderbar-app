@@ -1,0 +1,16 @@
+mutation editAnswerMutation($_id: ID!, $answer: AnswerInput!) {
+  editAnswer(_id: $_id, answer: $answer) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

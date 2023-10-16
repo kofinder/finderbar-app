@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_discuss_detail_toolbar"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:weightSum="4">
+    <LinearLayout
+        android:id="@+id/btn_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_weight="1">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:iiv_color="@color/pf_grey_light"
+            android:layout_gravity="left"
+            app:iiv_icon="pe7_7s_ribbon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#9B9B9B"
+            android:text="Favorites"
+            android:textSize="11sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:layout_weight="1">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:iiv_color="@color/pf_grey_light"
+            android:layout_gravity="left"
+            app:iiv_icon="pe7_7s_note" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9B9B9B"
+            android:text="Edit"
+            android:layout_gravity="left"
+            android:textSize="11sp"
+            android:paddingTop="2dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_weight="1">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:iiv_color="@color/pf_grey_light"
+            android:layout_gravity="left"
+            app:iiv_icon="pe7_7s_comment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9B9B9B"
+            android:layout_gravity="left"
+            android:text="Comment"
+            android:textSize="11sp"
+            android:paddingTop="2dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:layout_weight="1">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:iiv_color="@color/pf_grey_light"
+            android:layout_gravity="left"
+            app:iiv_icon="pe7_7s_share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#9B9B9B"
+            android:text="Share"
+            android:paddingTop="2dp"
+            android:textSize="11sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

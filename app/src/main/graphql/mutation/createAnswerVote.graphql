@@ -1,0 +1,16 @@
+mutation saveAnswerVoteMutation($_id: ID!, $vote: VoteInput!) {
+  createAnswerVote(_id: $_id, vote: $vote) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

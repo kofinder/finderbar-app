@@ -1,0 +1,15 @@
+mutation userSignInMutation($phoneNumber: String!, $password: String!) {
+  signInUser(phoneNumber: $phoneNumber, password: $password) {
+    authToken {
+      token
+      userId
+      username
+      avatar
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

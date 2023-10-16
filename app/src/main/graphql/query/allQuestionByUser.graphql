@@ -1,0 +1,26 @@
+query AllQuestionByUserQuery($criteria: Criteria!) {
+    allQuestionByUser(criteria: $criteria) {
+        questions {
+            _id
+            title
+            body
+            tags
+            answerCount
+            upVoteCount
+            downVoteCount
+            commentCount
+            viewCount
+            userAvatar
+            userName
+            createdAt
+            updatedAt
+        }
+        hasNext
+        totalCount
+        error {
+          status
+          statusCode
+          message
+        }
+    }
+}

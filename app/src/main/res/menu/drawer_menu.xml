@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+    </group>
+    <group android:id="@+id/gr2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/nav_about_us" />
+    </group>
+    <group android:id="@+id/gr3" android:checkableBehavior="single">
+        <item android:id="@+id/nav_credit"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="@string/credit_source" />
+    </group>
+<!--    <group android:id="@+id/gr4" android:checkableBehavior="single">-->
+<!--        <item android:id="@+id/nav_privacy_policy"-->
+<!--            android:icon="@drawable/ic_security_black_24dp"-->
+<!--            android:title="@string/privacy_policy" />-->
+<!--    </group>-->
+<!--    <group android:id="@+id/gr5" android:checkableBehavior="single">-->
+<!--        <item android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/ic_settings_black_24dp"-->
+<!--            android:title="@string/ap_settings" />-->
+<!--    </group>-->
+
+    <group android:id="@+id/gr4" android:checkableBehavior="single">
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/action_logout" />
+    </group>
+
+</menu>

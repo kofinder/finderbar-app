@@ -1,0 +1,17 @@
+mutation modifyMovieMutation($_id: ID!, $movie: MovieInput!) {
+  editMovie(_id: $_id, movie: $movie) {
+    command {
+       id
+       status
+       modifyFlag
+       statusCode
+       message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+
+}

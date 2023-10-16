@@ -1,0 +1,10 @@
+query SignOutUsersQuery($userId: ID!, $token: String!){
+  signOutUser(userId: $userId, token: $token) {
+    message
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

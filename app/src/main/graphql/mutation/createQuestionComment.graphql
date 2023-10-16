@@ -1,0 +1,16 @@
+mutation saveQuestionCommentMutation($_id: ID!, $comment: CommentInput!) {
+  createQuestionComment(_id: $_id, comment: $comment) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

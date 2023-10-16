@@ -1,0 +1,39 @@
+buildscript {
+    ext.kotlin_version = '1.3.11'
+    ext.graphql_version = '1.0.0-alpha5'
+    ext.toro_version = '3.5.2'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.4.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.apollographql.apollo:apollo-gradle-plugin:$graphql_version"
+        classpath "com.google.gms:google-services:4.2.0"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven{ url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+task preBuild(type: Exec) {
+    def envVars = getEnvironment()
+    envVars['PATH'] = envVars['PATH'] + ":/usr/local/bin"
+    exec {
+        environment << envVars
+        executable "sh"
+        args "-c", "apollo schema:download --endpoint=http://139.59.206.23/graphql ./app/src/main/graphql/schema.json"
+    }
+}

@@ -1,0 +1,34 @@
+query AllPostsQuery($criteria: Criteria!){
+    allPosts(criteria: $criteria) {
+        posts {
+            _id
+            userId
+            title
+            body
+            tags
+            movies {
+                body
+                url
+                coverUrl
+            }
+            images {
+                body
+                url
+            }
+            likeCount
+            commentCount
+            viewCount
+            userAvatar
+            userName
+            createdAt
+            updatedAt
+        }
+        hasNext
+        totalCount
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

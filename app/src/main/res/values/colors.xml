@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2C90FF</color>
+    <color name="colorPrimaryDark">#2c90ff</color>
+    <color name="colorAccent">#FD8469</color>
+    <color name="colorDeepPurple">#311b92</color>
+
+    <color name="pf_green">#3e802f</color>
+    <color name="pf_gold">#f4b400</color>
+    <color name="pf_primary">#427fed</color>
+    <color name="ps_red">#b23424</color>
+
+    <color name="pf_grey">#262626</color>
+    <color name="pf_navy">#021430</color>
+    <color name="pf_grey_light">#999999</color>
+    <color name="pf_white">#ffffff</color>
+    <color name="pf_gray_dark_light">#091D3C</color>
+    <color name="pf_white_gray">#D8D6D6</color>
+    <color name="pf_blue_grey">#455a64</color>
+    <color name="transparent">#00000000</color>
+    <color name="windows_blue">#3495af</color>
+    <color name="divider">#eae8e8</color>
+    <color name="background">#EFEFEF</color>
+    <color name="placeholder_grey">#AAADC4</color>
+    <color name="placeholder_grey_20">#33AAADC4</color>
+    <color name="main_background">#d0d0d0</color>
+
+
+    <color name="goldBadgeColor">#FFE082</color>
+    <color name="silverBadgeColor">#BDBDBD</color>
+    <color name="bronzeBadgeColor">#A1887F</color>
+    <color name="colorUserImagePlaceholder">#E0E0E0</color>
+
+    <color name="badgeColor">#edae0f</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="borderColor">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,16 @@
+mutation saveQuestionFavoriteMutation($_id: ID!, $userId: ID!) {
+  createQuestionFavorite(_id: $_id, userId: $userId) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

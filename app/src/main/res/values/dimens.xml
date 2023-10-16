@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="spinner_height">300dp</dimen>
+  <dimen name="spinner_width">90dp</dimen>
+  <dimen name="text_size">16sp</dimen>
+  <dimen name="large_text">16sp</dimen>
+  <dimen name="medium_text">14sp</dimen>
+
+  <dimen name="flag_size">24dp</dimen>
+  <dimen name="arrow">20dp</dimen>
+
+  <dimen name="margin_large">16dp</dimen>
+  <dimen name="margin_medium">8dp</dimen>
+  <dimen name="padding_large">16dp</dimen>
+  <dimen name="padding_medium">10dp</dimen>
+
+  <dimen name="tab_label">14sp</dimen>
+  <dimen name="custom_tab_layout_height">72dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="profile_width">75dp</dimen>
+  <dimen name="profile_height">75dp</dimen>
+
+  <dimen name="height_markdown_format_button">48dp</dimen>
+  <dimen name="width_markdown_format_button">48dp</dimen>
+
+  <dimen name="activity_margin">16dp</dimen>
+  <dimen name="paddingItemDecorationDefault">8dp</dimen>
+  <dimen name="paddingItemDecorationEdge">24dp</dimen>
+  <dimen name="activity_margin_content">24dp</dimen>
+  <dimen name="activity_margin_half">8dp</dimen>
+  <dimen name="poster_thumb_width">72dp</dimen>
+  <dimen name="poster_thumb_height">96dp</dimen>
+  <dimen name="activity_margin_quarter">4dp</dimen>
+
+  <dimen name="activity_horizontal_margin">30dp</dimen>
+  <dimen name="nav_header_vertical_spacing">20dp</dimen>
+  <dimen name="nav_header_height">250dp</dimen>
+
+  <dimen name="badge_size">56dp</dimen>
+  <dimen name="badge_border_size">2dp</dimen>
+
+  <dimen name="design_navigation_separator_vertical_padding">0dp</dimen>
+
+  <dimen name="image_width">120dp</dimen>
+  <dimen name="image_final_width">32dp</dimen>
+  <dimen name="spacing_normal">16dp</dimen>
+
+  <dimen name="video_min_height">250dp</dimen>
+  <dimen name="recycler_padding">3dp</dimen>
+</resources>

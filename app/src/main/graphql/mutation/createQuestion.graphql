@@ -1,0 +1,16 @@
+mutation saveQuestionMutation($question: QuestionInput!) {
+  createQuestion(question: $question) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

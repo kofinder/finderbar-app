@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+        android:layout_width="@dimen/spinner_width"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_border"
+        android:spinnerMode="dialog"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:tag="@string/phonefield_flag_spinner"
+    />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:background="@drawable/white_border"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textSize="14dp"
+        android:hint="Enter Phone"
+        android:tag="@string/phonefield_edittext"
+        android:textColor="#ffffff"
+        android:textColorHint="@android:color/darker_gray"
+    />
+</merge>

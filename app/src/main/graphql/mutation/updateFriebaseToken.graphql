@@ -1,0 +1,15 @@
+mutation updateUserFCMTokenMutation($fcmToken: String!) {
+    updateUserFCMToken(fcmToken: $fcmToken) {
+        modifyStatus {
+           status
+           modifyFlag
+           statusCode
+           message
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}

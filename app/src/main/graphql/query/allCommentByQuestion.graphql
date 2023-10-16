@@ -1,0 +1,19 @@
+query AllCommentByQuestionQuery($criteria: Criteria!) {
+  allCommentByQuestion(criteria: $criteria) {
+    comments {
+        _id
+        userId
+        userAvatar
+        userName
+        body
+        createdAt
+      }
+      hasNext
+      totalCount
+      error {
+        status
+        statusCode
+        message
+      }
+    }
+}

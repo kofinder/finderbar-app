@@ -1,0 +1,20 @@
+query AllTutoriesQuery($categoryId: ID!){
+    allTutotrials(categoryId: $categoryId) {
+        tutorials {
+            _id
+            titleText
+            htmlBody
+            serializedBody
+            commentCount
+            viewCount
+            createdAt
+            updatedAt
+        }
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}
+

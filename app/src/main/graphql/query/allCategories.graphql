@@ -1,0 +1,25 @@
+query AllCategoriesQuery($criteria: Criteria!){
+    allCategories(criteria: $criteria) {
+        categories {
+            _id
+            categoryId
+            userId
+            langPhoto
+            languageName
+            categoryName
+            authorName
+            authorAvatar
+            articles
+            createdAt
+            updatedAt
+        }
+        hasNext
+        totalCount
+        error {
+            status
+            statusCode
+            message
+        }
+    }
+}
+

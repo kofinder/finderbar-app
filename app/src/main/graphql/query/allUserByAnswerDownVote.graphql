@@ -1,0 +1,19 @@
+query AllUserByAnswerDownVoteQuery($criteria: Criteria!) {
+  allUserByAnswerDownVote(criteria: $criteria) {
+    users {
+      _id
+      userName
+      avatar
+      gender
+      online
+      createdAt
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

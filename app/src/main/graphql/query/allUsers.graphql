@@ -1,0 +1,18 @@
+query AllUsersQuery($criteria: Criteria!){
+  allUsers(criteria: $criteria) {
+    users {
+      _id
+      userName
+      avatar
+      gender
+      online
+    }
+    hasNext
+    totalCount
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}

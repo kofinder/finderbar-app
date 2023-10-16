@@ -1,0 +1,16 @@
+mutation saveAnswerMutation($answer: AnswerInput!) {
+  createAnswer(answer: $answer) {
+    command {
+      id
+      status
+      modifyFlag
+      statusCode
+      message
+    }
+    error {
+      status
+      statusCode
+      message
+    }
+  }
+}
