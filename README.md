@@ -38,7 +38,7 @@
 - https://github.com/MahmoudMabrok/Quizzy_app
 - https://androidwave.com/youtube-player-in-recyclerview-in-android/
 
-#comment dialog
+# comment dialog
 -https://github.com/r0adkll/Slidr
 
 
@@ -53,8 +53,6 @@
 - https://medium.com/@ayhamorfali/android-detect-when-the-recyclerview-reaches-the-bottom-43f810430e1e
 - https://blog.antariksh.dev/exploring-apollo-graphql-for-android-real-world-examples-ck00t4osc001yb4s1naj302my
 - https://stackoverflow.com/questions/48622273/how-to-implement-emoji-on-android-textview-and-edit-text-for-starters
-
-
 
 # NOTE
     - You can take the soure freely. However, I  don't allow to you to make money on it.
