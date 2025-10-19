@@ -55,4 +55,4 @@
 - https://stackoverflow.com/questions/48622273/how-to-implement-emoji-on-android-textview-and-edit-text-for-starters
 
 # NOTE
-    - You can take the soure freely. However, I  don't allow to you to make money on it.
+    - You can freely use this project’s source. However, I do not allow you to make money from it
