@@ -97,3 +97,10 @@ Please **provide appropriate credit** if you use or reference this work.
 Special thanks to the developers, designers, and open-source contributors behind all the libraries and tools referenced in this project. 🙌
 
 ---
+
+[![Watch the video](https://img.youtube.com/vi/frsoWVslYOk/0.jpg)](https://www.youtube.com/watch?v=frsoWVslYOk&autoplay=1)
+
+
+![Preview](https://github.com/kofinder/finderbar-app/blob/master/screenshot/login.jpg?raw=true)
+
+
